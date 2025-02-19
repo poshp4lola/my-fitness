@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../mine"
+		},
+		{
+			"path": "../bootstrap"
+		},
+		{
+			"path": "../new project"
+		},
+		{
+			"path": "../last"
+		},
+		{
+			"path": "../javascript"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "new project"
+	}
+}

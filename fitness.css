@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* navbar */
+header {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    align-items: center;
+    /* min-width: 80px; */
+    /* background-color: aqua; */
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* width: 100px; */
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.nav-links {
+    display: flex;
+    /* float: left;  */
+    justify-content: space-between;
+    margin-left: 60px;
+    align-items: center;
+    padding: 10px;
+    /* list-style: none;
+    text-decoration: none; */
+}
+
+.links  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 60px;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    /* margin-left: 120px; */
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+/* herosection */
+.herosection {
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    background-image: url(./skyfit9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.herosection h1 {
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.first-h1 {
+    color: white;
+    /* float: right; */
+    font-family: inherit;
+}
+
+.second-h1 {
+    color: rgb(0, 132, 255);
+    font-family: bold;
+}
+
+.herosection p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.herosection button {
+    font-size: 30px;
+    padding: 20px 50px;
+    /* margin-left: 120px; */
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+
+.container {
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    background-color: black
+}
+
+.container h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.container p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px
+}
+
+.container button {
+    font-size: 30px;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+}
+/* classes */
+.classes-section{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.classes-section h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+.classes-section p{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    background-color: black
+
+}
+.right-content{
+    /* padding-bottom: 40px;
+    padding-top: 40px; */
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.left-content{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.membership-section{
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    background-color: cadetblue;
+}
+.membership-section h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+.membership-section p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.img2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-right: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+/* trainers */
+.trainers-section h1 {
+    color: rgb(0, 132, 255);
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    margin-bottom: 30px
+}
+/* box */
+.whyus-section{
+    background-color:black;
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.whyus-section h1{
+    color: rgb(0, 132, 255);
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px
+}
+.whyus-section img{
+    padding: 60px;
+    padding-right: 20px;
+    margin-left: 40px;
+}
+
+
+/* testimonies */
+.testimonial-section {
+    background-color:black;
+    color: white;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.testimonial-section h1 {
+    color: rgb(0, 132, 255);
+    text-align: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+    /* padding-top: 80px; */
+}
+.testimonial-section p{
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0) ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 30px
+}
+/* footer */
+.footer-section{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    padding: 20px;
+    background-color:rgba(0, 0, 128, 0.135);
+    color: black;
+    padding-top: 20px;
+     margin-bottom: 40px;
+}
+.bgn img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.bgn p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+.bgn2{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    /* text-align: center; */
+    margin-right: 70px;
+}
+.bgn2 a{
+    align-items: center;
+    /* text-align: center; */
+    text-decoration: none;
+    color: black;
+}
+.bgn3{
+    padding: 29px;
+    margin-bottom: 30px;
+    margin-right: 140px;
+}
+.bgn4{
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+/* about */
+.about-us{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.about-us h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.about-us p{
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+/* contactus */
+.contactus{
+    /* padding: 20px 30px; */
+    display: flex;
+    min-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.476);
+    color: black;
+   
+}
+.father{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:rgba(0, 0, 0, 0.476);
+    color: black; */
+    padding: 30px;
+    align-items: center;
+    padding-right: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.right-side{
+    align-items: center;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    margin-right: 70px;
+}
+.rigt-side h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin-bottom: 50px;
+}
+.right-side h1{
+    color:rgb(0, 132, 255) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border: none;
+    margin-bottom: 30px;
+}
+.right-side p{
+    margin-bottom: 20px;
+}
+.left-content{
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
